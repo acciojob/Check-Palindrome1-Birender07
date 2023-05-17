@@ -12,7 +12,7 @@ function palindrome(str){
 		  j--;
 		  continue;
 	  }
-		if(str.charAt(i)!==str.charAt(j)){
+		if(str.charAt(i).toLowerCase() !== str.charAt(j).toLowerCase()){
 			return false;
 		}
 		i++;
